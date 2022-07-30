@@ -1,0 +1,4 @@
+ul .checked{
+    background: lightgreen;
+    text-decoration: line-through;
+}
