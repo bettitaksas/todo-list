@@ -1,4 +1,64 @@
 ul .checked{
-    background: lightgreen;
+    background: #a8eb12;
     text-decoration: line-through;
+}
+
+.container {
+    font-family: 'Mochiy Pop One', sans-serif;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+#input {
+    height: 50px;
+    width: 90%;
+    background: #051937;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#input::placeholder {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #bbb;
+}
+
+.fa-square-check {
+    color: green;
+}
+
+.fa-trash {
+    color: red;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+ul li {
+    height: 30px;
+    
+    background: #bbb;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    width: 90%;
+    padding: 0;
 }
