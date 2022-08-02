@@ -32,11 +32,15 @@ ul .checked{
     color: #bbb;
 }
 
-.fa-square-check {
+ul .fa-square-check {
+    right: 30px;
+    top: 15px;
     color: green;
 }
 
-.fa-trash {
+ul .fa-trash {
+    right: 10px;
+    top: 15px;
     color: red;
 }
 
@@ -55,10 +59,16 @@ ul li {
     border-radius: 20px;
     margin-top: 10px;
     padding: 10px;
+    position: relative;
 }
 
 ul {
     list-style-type: none;
     width: 90%;
     padding: 0;
+}
+
+ul .fa-square-check, .fa-trash {
+    position: absolute;
+    cursor: pointer;
 }
