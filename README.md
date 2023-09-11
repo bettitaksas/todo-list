@@ -1,6 +1,6 @@
 # To-Do List Project
 
-Welcome to the To-Do List project! This simple web application allows you to create and manage your to-do list. You can add tasks, mark them as done, or delete them as needed. This project is built using jQuery for interactivity and basic CSS for styling.
+Welcome to the To-Do List project! This page allows you to create and manage your to-do list. You can add tasks, mark them as done, or delete them as needed. This project is built using jQuery for interactivity and basic CSS for styling.
 
 ![Photo](./todo-img.png)
 
@@ -11,7 +11,6 @@ Welcome to the To-Do List project! This simple web application allows you to cre
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -47,3 +46,18 @@ To run this project locally, you will need the following:
 - To mark a task as done, click the checkbox next to the task.
 
 - To delete a task, click the "Delete" button next to the task.
+
+## Contributing
+Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
+
+- Fork the repository.
+
+- Create a new branch for your feature or bug fix.
+
+- Make your changes and commit them with descriptive commit messages.
+
+- Push your changes to your forked repository.
+
+- Submit a pull request to the original repository.
+
+- Please ensure your code follows best practices and includes appropriate documentation.
